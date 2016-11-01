@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<title>VE by Victoria Espinoza</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+  
+<style>  
+  
+footer {
+    font-size: 10px;
+    text-align: center;
+  }
+  
+</style> 
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <ul class="w3-navbar w3-red w3-card-2 w3-left-align w3-large">
+    <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+      <a class="w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    </li>
+    <li><a href="index.html" class="w3-padding-large w3-white"><img src="victoriaesp.github.io/logovicky.png" height="25px" alt="Vic Espinoza Logo"></a></a></li>
+    <li class="w3-hide-small"><a href="about.html" class="w3-padding-large w3-hover-white">About</a></li>
+    <li class="w3-hide-small"><a href="work.html" class="w3-padding-large w3-hover-white">Work</a></li>
+    <li class="w3-hide-small"><a href="contact.html" class="w3-padding-large w3-hover-white">Contact</a></li>
+  </ul>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
+    <ul class="w3-navbar w3-left-align w3-large w3-black">
+      <li><a class="w3-padding-large" href="about.html">About</a></li>
+      <li><a class="w3-padding-large" href="work.html">Work</a></li>
+      <li><a class="w3-padding-large" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+      <div class="w3-padding-16"><span class="w3-xlarge w3-border-red w3-bottombar">CONTACT US</span></div><br>
+      <p><i class="fa fa-map-marker w3-text-red w3-xlarge"></i>  1501 N Biscayne Blvd. Miami, FL  33132</p>
+      <p><i class="fa fa-phone w3-text-red w3-xlarge"></i>  +1 (305) 927-8673</p>
+      <p><i class="fa fa-envelope-o w3-text-red w3-xlarge"></i>  vicespinoza97@gmail.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white">
+      <div class="w3-group">
+        <label class="w3-label-red w3-left">Name</label>
+        <input class="w3-input" type="text">
+      </div>
+      <div class="w3-group">
+        <label class="w3-label-red w3-left">Email</label>
+        <input class="w3-input" type="text">
+      </div>
+  <div class="w3-group">
+        <label class="w3-label-red w3-left">Message</label>
+        <input class="w3-input" type="text">
+      </div>
+      <input class="w3-check" type="checkbox" unchecked>
+      <label class="w3-validate">Subscribe to mailing list!</label>
+      <button type="button" class="w3-btn w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+  <div class="w3-xlarge w3-padding-32">
+   <a href="index.html"><img src="victoriaesp.github.io/logovicky.png" width="125px" alt="VE Design Logo"><p>
+   <a href="https://www.facebook.com/victoria.espinoza.969" class="w3-hover-text-indigo"><i class="fa fa-facebook-official"></i></a>
+   <a href="https://www.twitter.com/victoriaesp" class="w3-hover-text-light-blue"><i class="fa fa-twitter"></i></a>
+   <a href="https://www.instagram.com/victoriaesp/?hl=en" class="w3-hover-text-pink"><i class="fa fa-instagram"></i></a>
+   <a href="https://www.linkedin.com/victoriaesp" class="w3-hover-text-indigo"><i class="fa fa-linkedin"></i></a>
+     <br>
+   <br>© 2016 Victoria Espinoza LLC. All Rights Reserved.<br>
+ </div>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
